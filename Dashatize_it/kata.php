@@ -23,7 +23,7 @@ class MyTestCases extends TestCase
     }
 
     public function testWeird() {
-//        $this->assertEquals('0', dashatize(0));
+        $this->assertEquals('0', dashatize(0));
         $this->assertEquals('1', dashatize(-1));
         $this->assertEquals('28-3-6-9', dashatize(-28369));
     }
