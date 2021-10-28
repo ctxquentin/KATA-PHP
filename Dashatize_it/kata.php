@@ -9,8 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 function dashatize(int $num): string {
     if($num < 0) $num = abs($num);
-    $spltNum = str_split($num);
-    return preg_replace('/(--)/', '-',trim(implode('', array_map(function ($a) {return ($a % 2 !== 0 ? '-'.$a.'-' : $a );}, $spltNum)), '-'));
+    return preg_replace('/(--)/', '-',trim(implode('', array_map(function ($a) {return ($a % 2 !== 0 ? '-'.$a.'-' : $a );}, str_split($num))), '-'));
 }
 
 class MyTestCases extends TestCase
