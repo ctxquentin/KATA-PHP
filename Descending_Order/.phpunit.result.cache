@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":278:{a:2:{s:7:"defects";a:3:{s:23:"MyTestCases::testDigits";i:4;s:29:"MyTestCases::testSmallNumbers";i:4;s:27:"MyTestCases::testBigNumbers";i:4;}s:5:"times";a:3:{s:23:"MyTestCases::testDigits";d:0.001;s:29:"MyTestCases::testSmallNumbers";d:0;s:27:"MyTestCases::testBigNumbers";d:0;}}}
